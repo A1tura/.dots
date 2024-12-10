@@ -1,0 +1,14 @@
+import = ["~/.config/alacritty/rose-pine.toml"]
+
+[window]
+startup_mode = "Fullscreen"
+
+[font]
+normal = {"family" = "Firacode", "style" = "SemiBold"}
+bold = {"family" = "Firacode", "style" = "Bold"}
+
+[keyboard]
+bindings = [
+    {key = "NumpadAdd",action = "ScrollLineUp", mode = "AppCursor | AppKeypad | Search | Alt | Vi"},
+{key = "PageDown",action = "ScrollLineDown"}
+]
