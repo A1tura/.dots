@@ -18,6 +18,7 @@ alias lla "ll -A"
 alias g git
 alias c clear
 alias z zoxide
+alias spotify="env LD_PRELOAD=/usr/local/lib/spotify-adblock.so /usr/bin/spotify"
 
 set -gx EDITOR nvim
 
